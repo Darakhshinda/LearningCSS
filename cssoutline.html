@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outlines</title>
+    <style>
+        p {
+            outline-color: red;
+        }
+        
+        p.dotted {
+            outline-style: dotted;
+        }
+        
+        p.dashed {
+            outline-style: dashed;
+        }
+        
+        p.solid {
+            outline-style: solid;
+        }
+        
+        p.double {
+            outline-style: double;
+        }
+        
+        p.groove {
+            outline-style: groove;
+        }
+        
+        p.ridge {
+            outline-style: ridge;
+        }
+        
+        p.inset {
+            outline-style: inset;
+        }
+        
+        p.outset {
+            outline-style: outset;
+        }
+        
+        p.ex1 {
+            border: 1px solid black;
+            outline-style: solid;
+            outline-color: red;
+            outline-width: thin;
+        }
+        
+        p.ex2 {
+            border: 1px solid black;
+            outline-style: solid;
+            outline-color: red;
+            outline-width: medium;
+        }
+        
+        p.ex3 {
+            border: 1px solid black;
+            outline-style: solid;
+            outline-color: red;
+            outline-width: thick;
+        }
+        
+        p.ex4 {
+            border: 1px solid black;
+            outline-style: solid;
+            outline-color: red;
+            outline-width: 4px;
+        }
+        
+        p.ex5 {
+            border: 2px solid black;
+            outline-style: solid;
+            outline-color: red;
+        }
+        
+        p.ex6 {
+            border: 2px solid black;
+            outline-style: dotted;
+            outline-color: blue;
+        }
+        
+        p.ex7 {
+            border: 2px solid black;
+            outline-style: outset;
+            outline-color: gray;
+        }
+        
+        p.ex8 {
+            border: 2px solid blue;
+            outline-style: solid;
+            outline-color: #ff0000;
+        }
+        
+        p.ex9 {
+            border: 3px solid green;
+            outline-style: solid;
+            outline-color: rgb(255, 0, 0);
+        }
+        
+        p.ex10 {
+            border: 5px solid blue;
+            outline-style: solid;
+            outline-color: hsl(0, 100%, 50%);
+        }
+        
+        p.ex11 {
+            outline: dashed;
+        }
+        
+        p.ex12 {
+            outline: dotted red;
+        }
+        
+        p.ex13 {
+            outline: 5px solid yellowgreen;
+        }
+        
+        p.ex14 {
+            outline: thick ridge pink;
+        }
+        
+        p.ex15 {
+            margin: 30px;
+            border: 1px solid blue;
+            outline: 1px solid red;
+            outline-offset: 15px;
+        }
+        
+        p.ex16 {
+            margin: 30px;
+            background: yellow;
+            border: 1 px solid black;
+            outline: 1px solid red;
+            outline-offset: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>The outline style property</h2>
+    <p class="dotted">A dotted outline</p>
+    <p class="dashed">A dashed outline</p>
+    <p class="solid">A solid outline</p>
+    <p class="double"> A double outline</p>
+    <p class="groove">A groove outline. The effect depends on the outline-color value.</p>
+    <p class="ridge"> A ridge outline. The effect depends on the outline-color value.</p>
+    <p class="inset"> A inset outline. The effect depends on the outline-color value.</p>
+    <p class="outset"> An outset outline. The effect depends on the outline-color value.</p>
+    <h2>The outline-width Property</h2>
+    <p class="ex1"> A thin outline.</p>
+    <p class="ex2"> A medium outline.</p>
+    <p class="ex3"> A thick outline.</p>
+    <p class="ex4"> A 4px thick outline.</p>
+    <h2> The outline-color property</h2>
+    <p class="ex5">A solid red outline.</p>
+    <p class="ex6"> A dotted blue outline.</p>
+    <p class="ex7"> An outset grey outline.</p>
+    <h2>The outline using HEX values</h2>
+    <p class="ex8"> Using hexadecimal values.</p>
+    <h2>The outline using RGB values</h2>
+    <p class="ex9"> A outline using RGB Values.</p>
+    <h2>The outline using HSL values.</h2>
+    <p class="ex10"> A outline using HSL values.</p>
+    <h2>The outline property</h2>
+    <p class="ex11">A dashed outline.</p>
+    <p class="ex12">A dotted red outline</p>
+    <p class="ex13">A 5px solid yellow outline.</p>
+    <p class="ex14">A thick ridge pink outline.</p>
+    <h2>CSS Outline Offset</h2>
+    <p class="ex15"> This paragraph has an outline 15px outside the border edge</p>
+    <h2>The following example showes that the space between an element and its outline is transparent.</h2>
+    <p class="ex16"> This paragraph has an outline of 15px outside the border edge.</p>
+</body>
+
+</html>

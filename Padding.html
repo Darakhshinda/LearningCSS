@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding</title>
+    <style>
+        #div1 {
+            padding: 70px;
+            border: 1px solid #4CAF50;
+        }
+        
+        #div2 {
+            border: 1px solid black;
+            background-color: lightpink;
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+        }
+        
+        #div3 {
+            border: 3px solid black;
+            padding: 25px 50px 75px 100px;
+            background-color: lightskyblue;
+        }
+        
+        #div4 {
+            border: 5px solid brown;
+            padding: 25px 50px 75px;
+            background-color: black;
+            color: white;
+        }
+        
+        #div5 {
+            border: 1px solid black;
+            padding: 25px 50px;
+            background-color: crimson;
+            color: white;
+        }
+        
+        #div6 {
+            border: 2px solid black;
+            padding: 25px;
+            background-color: blueviolet;
+            color: cornsilk;
+        }
+        
+        #div7 {
+            width: 300px;
+            background-color: yellow;
+        }
+        
+        #div8 {
+            width: 300px;
+            padding: 25px;
+            background-color: violet;
+            color: wheat;
+        }
+        
+        #div9 {
+            width: 300px;
+            background-color: turquoise;
+        }
+        
+        #div10 {
+            width: 300px;
+            padding: 25px;
+            box-sizing: border-box;
+            background-color: yellowgreen;
+            color: thistle;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>CSS Padding</h2>
+    <div id="div1">The element has a padding of 70px.</div>
+    <h2>Using individual padding properties</h2>
+    <div id="div2"> This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px</div>
+    <h2>The padding shorthand property-4 values</h2>
+    <div id="div3"> This div element has a top padding of 25px, a right padding of 50px, a botom padding of 75px, and a left padding of 100px</div>
+    <h2>The padding shorthand property-3 values</h2>
+    <div id="div4"> This div element has a top padding of 25px, a right and left padding of 50px, and a bottom padding of 75px.</div>
+    <h2>The padding shorthand property-2 values</h2>
+    <div id="div5"> This div element has a top and bottom padding of 25px, and a right and left padding of 50px</div>
+    <h2>The paddihg shorthand property-1 value </h2>
+    <div id="div6">This div element has a top, bottom,left,and right padding of 25px</div>
+    <h2>Padding and element width</h2>
+    <div id="div7"> This div is 300px wide</div><br>
+    <div id="div8"> The width of this div is 350px, even though it is defined as 300px in the CSS</div>
+    <h2>Padding and element width- with box-sizing</h2>
+    <div id="div9"> This div is 300px wide</div><br>
+    <div id="div10"> The width of this div remains at 300px, in spite of the 50px of total left and right padding, because of the box-sizing: border-box property. </div>
+</body>
+
+</html>

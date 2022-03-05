@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Allignment</title>
+</head>
+<style>
+    h1 {
+        color: blue;
+        text-align: center;
+    }
+    
+    h2 {
+        text-align: left;
+    }
+    
+    h3 {
+        text-align: right;
+    }
+    
+    div {
+        border: 1px solid blue;
+        padding: 10px;
+        width: 200px;
+        height: 200px;
+        text-align: justify;
+    }
+    
+    p.a {
+        text-align: right;
+    }
+    
+    p.b {
+        text-align: center;
+    }
+    
+    p.c {
+        text-align: justify;
+    }
+    
+    p.ex1 {
+        direction: rtl;
+        unicode-bidi: bidi-override;
+    }
+    
+    img.a {
+        vertical-align: baseline;
+    }
+    
+    img.b {
+        vertical-align: text-top;
+    }
+    
+    img.c {
+        vertical-align: text-bottom;
+    }
+    
+    img.d {
+        vertical-align: sub;
+    }
+    
+    img.e {
+        vertical-align: super;
+    }
+    
+    p.h1 {
+        text-decoration: overline;
+    }
+    
+    p.h2 {
+        text-decoration: line-through;
+    }
+    
+    p.h3 {
+        text-decoration: underline;
+    }
+    
+    p.h4 {
+        text-decoration: overline underline;
+    }
+    
+    p.h5 {
+        text-decoration-line: underline;
+        text-decoration-color: brown;
+    }
+    
+    p.h6 {
+        text-decoration-line: line-through;
+        text-decoration-color: cornflowerblue;
+    }
+    
+    p.h7 {
+        text-decoration-line: underline;
+        text-decoration-color: darkgreen;
+    }
+    
+    p.h8 {
+        text-decoration-line: underline overline;
+        text-decoration-color: darkorange;
+    }
+    
+    p.uppercase {
+        text-transform: uppercase;
+    }
+    
+    p.lowercase {
+        text-transform: lowercase;
+    }
+    
+    p.capitalize {
+        text-transform: capitalize;
+    }
+    
+    p.in {
+        text-indent: 50px;
+    }
+    
+    p.ls {
+        letter-spacing: 5px;
+    }
+    
+    p.ls1 {
+        letter-spacing: -2px;
+    }
+    
+    p.small {
+        line-height: 0.7;
+    }
+    
+    p.big {
+        line-height: 1.8;
+    }
+    
+    p.one {
+        word-spacing: 10px;
+    }
+    
+    p.two {
+        word-spacing: -2px;
+    }
+    
+    p.three {
+        white-space: nowrap;
+    }
+    
+    p.q {
+        text-shadow: 2px 2px;
+    }
+    
+    p.w {
+        text-shadow: 2px 3px red;
+    }
+    
+    p.e {
+        text-shadow: 2px 2px 5px blue;
+    }
+    
+    p.r {
+        font-family: Tahoma, VErdana, sans-serif;
+    }
+    
+    p.t {
+        font-family: Arial, sans-serif;
+    }
+    
+    p.y {
+        font-family: Verdana, sans-serif;
+    }
+    
+    p.u {
+        font-family: Tahoma, sans-serif;
+    }
+    
+    p.i {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    p.o {
+        font-family: 'Brush Script MT', cursive;
+    }
+    
+    p.normal {
+        font-style: normal;
+    }
+    
+    p.italic {
+        font-style: italic;
+    }
+    
+    p.oblique {
+        font-style: oblique;
+    }
+    
+    p.normal1 {
+        font-weight: normal;
+    }
+    
+    p.thick {
+        font-weight: bold;
+    }
+    
+    p.normal2 {
+        font-variant: normal;
+    }
+    
+    p.small {
+        font-variant: small-caps;
+    }
+</style>
+
+<body>
+    <h1>Heading 1 (center)</h1>
+    <h2>Heading 2 (left)</h2>
+    <h3> Heading 3 (right)</h3>
+    <p>The three headings above are aligned center, left and right.</p>
+    <h1>Example text-align: justify</h1>
+    <p>The text-align: justify; value stretches the lines so that each line has equal width (like in newspapers and magazines.)</p>
+    <div>
+        In my younger and more vulnerable years my father gave me some advice that i've been turning over in my mind ever since. Whenever you feet like criticizing anyone,he told me , 'just remember that all the people in this world haven't had the advantages
+        that you've had.
+    </div>
+    <h1>The text-align-last property</h1>
+    <h2>text-align:right:</h2>
+    <p class="a">Darakhshinda is very smart girl. She deserve all happiness in her life.May Allah bless her always "Aameen"</p>
+    <h2>Text-align: center:</h2>
+    <p class="b">Tabrez is very calm and mature guy. May Allah bless him. Aammen</p>
+    <h2>Text-align:justify</h2>
+    <p class="c"> I currently lives in Nepal but i am planning to move in USA. In Sha Allah</p>
+    <p> This is the default text direction.</p>
+    <p class="ex1"> This is right-to-left text direction.</p>
+    <h1>The vertical-align property</h1>
+    <h2>Vertical-align:baseline (default):</h2>
+    <p>An <img class="a" src="dp.jpg" width="9" height="9"> image with a default alignment.</p>
+    <h2>Vertical-align: text-top::</h2>
+    <p>An <img class="b" src="dp.jpg" width="9" height="9"> image with a text-top alignment.</p>
+    <h2>Vertical-align:text- bottom:</h2>
+    <p>An <img class="c" src="dp.jpg" width="9" height="9"> image with a text-bottom alignment.</p>
+    <h2>Vertical=align: sub:</h2>
+    <p>An <img class="d" src="dp.jpg" width="9" height="9"> image with a sub alignment.</p>
+    <h2>Vertical-align: super:</h2>
+    <p>An <img class="e" src="dp.jpg" width="9" height="9"> image with a super alignment.</p>
+    <p class="h1"> Overline text decoration</p>
+    <p class="h2">Line- through text decoration</p>
+    <p class="h3"> Underline text decoration.</p>
+    <p class="h4"> Overline and underline text decoration.</p>
+    <p> <strong> Note: </strong>It is not recommended to underline text that is not a link, as this often confuses the reder.</p>
+    <p class="h5"> Overline text decoration</p>
+    <p class="h6">Line-through text decoration </p>
+    <p class="h7"> Underline text decoration</p>
+    <p class="h8">Overline and underline text decoration.</p>
+    <h1> CSS Text Transformation</h1>
+    <p class="uppercase"> This text is transformed to uppercase. </p>
+    <p class="lawercase"> This case is transformed to lowerlase.</p>
+    <p class="capitalize"> This text is capitalized.</p>
+    <h1>CSS Text spacing</h1>
+    <h2>Using text-indent</h2>
+    <p class="in"> In my younger and more vulnerable years my father gave me some advice that i've been turning over in my mind ever since.'Whenever you feel like criticizing anyone,' he told me ,'just remember that all the people in this world haven't had that advantages
+        that you've had.</p>
+    <h1>Using letter-spacing</h1>
+    <p class="ls">That is heading 1</p>
+    <p class="ls1">This is heading 2</p>
+    <h1>Using line height</h1>
+    <p> This is a paragraph with standard line-height.<br> The default line height in most browsers is about 110% to 120%. <br></p>
+    <p class="small"> This is a paragraph with a smaller line-height.<br> This is a paragraph with smaller line-height.</p>
+    <p class="big"> This is a paragraph with a bigger line- height. <br> This is a paragraph with bigger line-height.</p>
+    <h1>Using word spacing</h1>
+    <p>This is a pragraph with normal word spacing.</p>
+    <p class="one">This is a paragraph with larger word spacing.</p>
+    <p class="two">This is a paragraph with smaller word spacing.</p>
+    <h1>Using white-space</h1>
+    <p>This is some text that will not wrap. this is some text that wil not wrap. This is some text that will not wrap. This is some text taht will not wrap.
+        <p class="three">Try to remove the white spece property to remove to see the difference!</p>
+    </p>
+    <h1>Text shadow effect!</h1>
+    <p class="q">Text Shadow Effect!</p>
+    <p class="w">Text-Shadow Effect!</p>
+    <p class="e">Text- Shadow Effect!</p>
+    <h1>Font Family</h1>
+    <h2>CSS Fallback Fonts</h2>
+    <p class="r"> This is a paragraph.</p>
+    <p>This is another paragraph</p>
+    <h1 class="t">Lorem ipsum dolor sit amet</h1>
+    <p class="t">Lorem ipsum dolor sit amet.</p>
+    <p class="t">0 1 2 3 4 5 6 7 8 9</p>
+    <h1 class="y">Lorem ipsum dolor sit amet</h1>
+    <p class="y">Lorem ipsum dolor sit amet.</p>
+    <p class="y">0 1 2 3 4 5 6 7 8 9</p>
+    <h1 class="u">Lorem ipsum dolor sit amet</h1>
+    <p class="u">Lorem ipsum dolor sit amet.</p>
+    <p class="u">0 1 2 3 4 5 6 7 8 9</p>
+    <h1 class="i">Lorem ipsum dolor sit amet</h1>
+    <p class="i">Lorem ipsum dolor sit amet.</p>
+    <p class="i">0 1 2 3 4 5 6 7 8 9</p>
+    <p class="o">Darakhshinda Tabrez</p>
+    <p class="o">1 2 3 4 5 6 7 8 9</p>
+    <h1>The font-style property</h1>
+    <p class="normal">Darakhshinda Parween</p>
+    <p class="italic">Darakhshinda Parween</p>
+    <p class="oblique">Tabrez Alam Darakhshinda Parween</p>
+    <p class="normal1">Tabrez Alam Darakhshinda Parween</p>
+    <p class="thick">Darakhshinda Parween Tabrez Alam</p>
+    <p class="normal2">Darakhshinda Parween Tabrez Alam</p>
+    <p class="small">Darakhshinda Parween</p>
+</body>
+
+</html>

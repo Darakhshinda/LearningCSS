@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Property</title>
+    <style>
+        #div1 {
+            border: 5px solid black;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-right: 30px;
+            margin-left: 80px;
+            background-color: lightblue;
+        }
+        
+        #div2 {
+            border: 20px solid blue;
+            margin: 25px 50px 75px 100px;
+            background-color: cadetblue;
+        }
+        
+        #div3 {
+            border: 5px solid black;
+            margin: 25px 50px 75px;
+            background-color: thistle;
+        }
+        
+        #div4 {
+            border: 2px solid green;
+            margin: 25px 50px;
+            background-color: hotpink;
+        }
+        
+        #div5 {
+            border: 5px solid black;
+            margin: 25px;
+            background-color: orangered;
+        }
+        
+        #div6 {
+            width: 300;
+            margin: auto;
+            border: 2px solid red;
+        }
+        
+        #div7 {
+            border: 1px solid red;
+            margin-left: inherit;
+        }
+        
+        p.ex1 {
+            margin-left: inherit;
+        }
+        
+        #div8 {
+            margin: 70px;
+            border: 1px solid #4CAF50;
+        }
+        
+        #div9 {
+            border: 1px solid black;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-right: 150px;
+            margin-left: 80px;
+            background-color: lightpink;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Using individual margin Property</h2>
+    <div id="div1">This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left margin of 80px</div>
+    <h2>The margin shorthand property-4 values</h2>
+    <div id="div2">This div element has a top margine of 25px, a right margin of 50px, a bottom margin of 75px amnd a left margin of 100px. </div>
+    <h2>The margin shorthand property -3 values</h2>
+    <div id="div3"> This div element has a top margin of 25px, a right margin and left margin of 50px, and a bottom margin of 75px.</div>
+    <h2>The margin shorthand property-2 values</h2>
+    <div id="div4"> This div element has a top and bottom margin of 25px, and a right and left margin of 50px.</div>
+    <h2>The margin shorthand property-1 value</h2>
+    <div id="div5"> This div element has a top, bottom, left and right margin of 25px.</div>
+    <h2>Use of margin:auto</h2>
+    <p> You can set the margin property to auto to horizontally center the element within its container. The element will then take up the specified width, and the remaining space will be split equally between the left and right margins:</p>
+    <div id="div6"> This div will be horizontally centered because it has margin:auto;</div>
+    <h2>Use of the inherit value</h2>
+    <p>Let the left margin be inherited from the parent element:</p>
+    <div id="div7">
+        <p class="ex1"> This paragraph has an inherited left margin (from the div7 element)</p>
+    </div>
+    <h2>CSS Margins</h2>
+    <div id="div8">This element has a margin of 70px.</div>
+    <h2>Using individual margin properties</h2>
+    <div id="div9"> This div element has a top margin of 100px, a riright margin of 150px, a bottom margin of 100x, and a left margin of 80px.</div>
+</body>
+
+</html>
